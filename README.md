@@ -3,7 +3,7 @@
 This repository contains the notebooks used for segmentation and quantitative
 analysis of smFISH images.
 
-## Software environment
+## Software environments
 
 `environment-full-macos.yml` contains a snapshot of the Conda environment used
 for the original analysis.
@@ -11,13 +11,14 @@ for the original analysis.
 It includes additional packages that may not be required by the notebooks and
 has not been tested on other operating systems.
 
+`environment-minimal.yml` contains only the minimum requirements to run the analysis.
+
 ### Create the environment
 
 ```bash
-conda env create -f environment-full-macos.yml
+conda env create -f environment-full-macos.yml # or environment-minimal.yml
 conda activate speckle_analysis
 ```
-
 
 ## Repository structure
 
