@@ -1,0 +1,9 @@
+name: speckle_analysis
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter
+prefix: /Users/niko/anaconda3/envs/speckle_analysis
