@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Environments and secrets
+.env
+.venv/
+venv/
+
+# Data and analysis outputs
+data/
+raw_data/
+outputs/
+segmentations/
+masks/
+master_sheets/
+
+# Microscopy images
+*.tif
+*.tiff
+
+# Temporary and backup files
+*.tmp
+*.bak
+*~
